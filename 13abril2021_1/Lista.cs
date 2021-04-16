@@ -70,7 +70,9 @@ namespace _13abril2021_1
             1. Obtener COPIA del 1er nodo
             2. Remover 1er nodo
             3. Retornar la copia del 1er nodo
-            */            
+            */
+
+            return null; //para completar la implementacion por favor cambiar esta linea.
         }
     }
 }

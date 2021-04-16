@@ -10,11 +10,11 @@
         "projectUniqueName": "C:\\tmp\\Repositorio\\EDGrupo2SI2021\\13abril2021_1\\13abril2021_1.csproj",
         "projectName": "13abril2021_1",
         "projectPath": "C:\\tmp\\Repositorio\\EDGrupo2SI2021\\13abril2021_1\\13abril2021_1.csproj",
-        "packagesPath": "C:\\Users\\onivi\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\onivia\\.nuget\\packages\\",
         "outputPath": "C:\\tmp\\Repositorio\\EDGrupo2SI2021\\13abril2021_1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\onivi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\onivia\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -50,7 +50,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.408\\RuntimeIdentifierGraph.json"
         }
       }
     }
