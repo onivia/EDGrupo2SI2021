@@ -6,7 +6,8 @@ namespace _13abril2021_1
     {
         public static void Main(string[] args)
         {
-            Prueba_Cola();            
+            Prueba_Lista();
+            //Prueba_Cola();            
         }
 
         private static void Prueba_Lista() {
@@ -22,6 +23,11 @@ namespace _13abril2021_1
             nodo = new Nodo(3);
             lista.Adicionar(nodo);
 
+            lista.insertarPrimero(new Nodo(9));
+            nodo = lista.obteneryRemoverPrimero();
+            nodo = lista.obteneryRemoverPrimero();
+
+            Console.WriteLine($"el dato del 1° nodo es: {nodo.dato}");
             lista.Mostrar();
         }
     

@@ -58,11 +58,54 @@ namespace _13abril2021_1
         }
     
         public void insertarPrimero(Nodo nodo) {
-
+            /*
+            Si esta vacia:
+                ‘p’ y ‘u’ apuntaran a nodo
+            Sino esta vacia:
+                ‘nodo.sgte’ apuntara a ‘p’
+                ‘p’ apuntara a nodo
+            tamano++
+            */
+            if(estaVacia()) {
+                p = nodo;
+                u = nodo;
+            }
+            else {
+                nodo.sgte = p;
+                p = nodo;
+            }
+            tamano+=1;
         }
 
         private void removerPrimero() {
-            
+            /*
+            NO esta vacia:
+                tamano es 1
+                    ‘p’ y ‘u’ apuntaran a null
+                    Tamano es 0
+                tamano > 1
+                    ‘nA’ apuntara a ‘p’
+                    ‘P’ apuntara al sgte nodo
+                    ‘nA.sgte’ apuntara a null
+                    ‘nA’ apuntara a null
+                    tamano--
+            */
+            Nodo nododAux = null;
+
+            if(!estaVacia()) {
+                if(tamano==1) {
+                    p = null;
+                    u = null;
+                    tamano = 0;
+                }
+                else { //tiene nodos
+                    nododAux = p;
+                    p = nododAux.sgte;
+                    nododAux.sgte = null;
+                    nododAux = null;
+                    tamano-=1; //tamano--;
+                }
+            }
         }
 
         public Nodo obteneryRemoverPrimero() {
@@ -71,8 +114,21 @@ namespace _13abril2021_1
             2. Remover 1er nodo
             3. Retornar la copia del 1er nodo
             */
+            Nodo nodoCopia = null;
 
-            return null; //para completar la implementacion por favor cambiar esta linea.
+            if(!estaVacia()) {
+                nodoCopia = new Nodo(p.dato);
+                removerPrimero();                
+            }
+
+            return nodoCopia;
+        }
+
+        //Grupo 5, por favor mostrarnos con la debida explicacion (analisis e implementacion)
+        //el funcionamiento de este metodo
+        public bool Actualizar(int posicion, int dato) {
+
+            return false; //debe retornarse un valor bool, donde 'true' indicara que efectivamente la posicion solicitada existe y se pudo hacer la actualizacion del dato, 'false' sino existia la posicion dada.
         }
     }
 }
