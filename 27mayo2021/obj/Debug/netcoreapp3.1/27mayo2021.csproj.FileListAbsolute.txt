@@ -1,0 +1,13 @@
+C:\tmp\Repositorio\EDGrupo2SI2021\27mayo2021\bin\Debug\netcoreapp3.1\27mayo2021.exe
+C:\tmp\Repositorio\EDGrupo2SI2021\27mayo2021\bin\Debug\netcoreapp3.1\27mayo2021.deps.json
+C:\tmp\Repositorio\EDGrupo2SI2021\27mayo2021\bin\Debug\netcoreapp3.1\27mayo2021.runtimeconfig.json
+C:\tmp\Repositorio\EDGrupo2SI2021\27mayo2021\bin\Debug\netcoreapp3.1\27mayo2021.runtimeconfig.dev.json
+C:\tmp\Repositorio\EDGrupo2SI2021\27mayo2021\bin\Debug\netcoreapp3.1\27mayo2021.dll
+C:\tmp\Repositorio\EDGrupo2SI2021\27mayo2021\bin\Debug\netcoreapp3.1\27mayo2021.pdb
+C:\tmp\Repositorio\EDGrupo2SI2021\27mayo2021\obj\Debug\netcoreapp3.1\27mayo2021.csprojAssemblyReference.cache
+C:\tmp\Repositorio\EDGrupo2SI2021\27mayo2021\obj\Debug\netcoreapp3.1\27mayo2021.AssemblyInfoInputs.cache
+C:\tmp\Repositorio\EDGrupo2SI2021\27mayo2021\obj\Debug\netcoreapp3.1\27mayo2021.AssemblyInfo.cs
+C:\tmp\Repositorio\EDGrupo2SI2021\27mayo2021\obj\Debug\netcoreapp3.1\27mayo2021.csproj.CoreCompileInputs.cache
+C:\tmp\Repositorio\EDGrupo2SI2021\27mayo2021\obj\Debug\netcoreapp3.1\27mayo2021.dll
+C:\tmp\Repositorio\EDGrupo2SI2021\27mayo2021\obj\Debug\netcoreapp3.1\27mayo2021.pdb
+C:\tmp\Repositorio\EDGrupo2SI2021\27mayo2021\obj\Debug\netcoreapp3.1\27mayo2021.genruntimeconfig.cache
